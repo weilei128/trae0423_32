@@ -1,0 +1,32 @@
+{
+  "name": "cinema-frontend",
+  "version": "1.0.0",
+  "description": "Cinema Management System Frontend",
+  "scripts": {
+    "serve": "vue-cli-service serve --port 10012",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "axios": "^0.27.2",
+    "element-ui": "^2.15.13",
+    "dayjs": "^1.11.7"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.19",
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-plugin-router": "~4.5.19",
+    "@vue/cli-plugin-vuex": "~4.5.19",
+    "vue-template-compiler": "^2.6.14",
+    "sass": "^1.57.1",
+    "sass-loader": "^10.4.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
